@@ -36,7 +36,7 @@ Für die Berechnung der Distanzmatrizen wurden **euklidische Distanzen** und **H
 - **Euklidische Distanz**: Berechnet die lineare Entfernung zwischen den Punkten in den geografischen Koordinaten.
 - **Haversine-Distanz**: Berechnet die Entfernung unter Berücksichtigung der Erdkrümmung.
 
-Da die erzeugten Distanzmatrizen sehr groß sind, wurden sie in Batches gespeichert und auf **Dropbox** hochgeladen. Die Links zu den Batch-Dateien sind im entsprechenden Ordner auf Dropbox verfügbar, um den Zugriff und die Verwendung der großen Dateien zu erleichtern.
+Da die erzeugten Distanzmatrizen sehr groß sind, wurden sie in **Batches** gespeichert und auf **Dropbox** hochgeladen. Die Links zu den Batch-Dateien sind im entsprechenden Ordner auf Dropbox verfügbar, um den Zugriff und die Verwendung der großen Dateien zu erleichtern.
 
 - **Euklidische Distanzen**: Batches der euklidischen Distanzen sind als `.npy`-Dateien gespeichert und wurden auf Dropbox hochgeladen.
 - **Haversine Distanzen**: Ebenso wurden die Haversine-Distanzen in Batches verarbeitet und hochgeladen.
