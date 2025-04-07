@@ -7,7 +7,8 @@ Dieses Repository enthält die Datenverarbeitung, Modellbildung und Ergebnisdars
 - 📁 `notebooks/`: Interaktive Analyse in Jupyter
 - 📁 `scripts/`: Preprocessing-Skripte
 - 📁 `data/`: Eingabedaten, Modelle und Geo-Daten
-- 📁 `results/`: Statistische Auswertungsergebnisse (optional)
+- 📁 `output/plots`: Visualisierungen
+- 
 
 ## Hinweise
 
