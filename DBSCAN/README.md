@@ -36,14 +36,33 @@ Für die Berechnung der Distanzmatrizen wurden **euklidische Distanzen** und **H
 - **Euklidische Distanz**: Berechnet die lineare Entfernung zwischen den Punkten in den geografischen Koordinaten.
 - **Haversine-Distanz**: Berechnet die Entfernung unter Berücksichtigung der Erdkrümmung.
 
-Da die erzeugten Distanzmatrizen sehr groß sind, wurden sie in **Batches** gespeichert und auf **Dropbox** hochgeladen. Die Links zu den Batch-Dateien sind im entsprechenden Ordner auf Dropbox verfügbar, um den Zugriff und die Verwendung der großen Dateien zu erleichtern.
+Da die erzeugten Distanzmatrizen sehr groß sind, wurden sie in **Batches** gespeichert und auf **Google Drive** hochgeladen. Die Links zu den Batch-Dateien sind im entsprechenden Ordner auf Dropbox verfügbar, um den Zugriff und die Verwendung der großen Dateien zu erleichtern.
 
-- **Euklidische Distanzen**: Batches der euklidischen Distanzen sind als `.npy`-Dateien gespeichert und wurden auf Dropbox hochgeladen.
+- **Euklidische Distanzen**: Batches der euklidischen Distanzen sind als `.npy`-Dateien gespeichert und wurden auf Google-Drive hochgeladen.
 - **Haversine Distanzen**: Ebenso wurden die Haversine-Distanzen in Batches verarbeitet und hochgeladen.
 
-### Dropbox-Links:
+## Verarbeitung der Distanzmatrizen:
+Die Berechnung der Distanzen erfolgt in **Batches**:
+- **Batch-Verarbeitung**: Die **euklidische** und **haversine Distanz** werden parallelisiert und nach Batches in separate **.npy**-Dateien gespeichert. Diese Dateien werden als **Sparse-Matrizen** in einem **.npz**-Format abgespeichert.
+- **Datenzugriff**: Die geladenen Distanzen werden dann verwendet, um DBSCAN auf den verarbeiteten Distanzmatrizen auszuführen.
 
-Die Batch-Dateien (z. B. `euklid_batch_500.npy`, `haversine_batch_0.npz`) können über die entsprechenden Dropbox-Links heruntergeladen werden. Achten Sie darauf, die Dateien vor der Analyse herunterzuladen, falls sie benötigt werden.
+## Code Erklärung
+- **Distanzmatrix-Berechnung**: Der Code berechnet die Distanzmatrizen in kleinen Batches, um Speicherprobleme zu vermeiden.
+- **DBSCAN Clustering**: Mit den berechneten Distanzen wird der **DBSCAN-Algorithmus** angewendet, um die Verkehrsunfälle zu clustern.
+
+### Google Drive-Links:
+
+Die Batch-Dateien (z. B. `euklid_batch_0.npy`, `haversine_batch_0.npz`) können über die entsprechenden Google Drive-Links heruntergeladen werden. Achten Sie darauf, die Dateien vor der Analyse herunterzuladen, falls sie benötigt werden.
+
+## Ausführliche Anleitung
+1. Lade die **Daten von Google Drive herunter** und platziere sie im richtigen Ordner.
+2. Führe das Skript `dbscan_model.py` aus, um den DBSCAN-Clusterprozess zu starten.
+3. Analysiere die Ergebnisse in der Datei `dbscan_merged_clusters.csv`.
+
+## Anmerkungen:
+- **Datenmengen**: Die Distanzmatrizen in den Batches sind sehr speicherintensiv, was dazu führt, dass sie auf **Google Drive** gespeichert und aus der Cloud geladen werden müssen.
+- **Speicherplatz**: Stelle sicher, dass du genügend Speicherplatz auf deinem Google Drive hast, um die Daten herunterzuladen.
+- **Parallelisierung**: Die Berechnungen der Distanzmatrizen in Batches werden mit **Parallelisierung** durchgeführt, um die Verarbeitung zu beschleunigen und Speicherprobleme zu vermeiden.
 
 ## Installation
 
