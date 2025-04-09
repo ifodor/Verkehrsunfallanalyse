@@ -20,7 +20,7 @@ Die Verkehrsunfalldaten stammen aus Berlin und decken den Zeitraum von 2018 bis 
 ### Eingabedaten:
 - Die **Distanzmatrizen** (euklidische und haversine) sind in **Batches unterteilt** und können nicht direkt im Repository bereitgestellt werden.
 - Aufgrund der **Größe der Daten** (insgesamt über 50 GB) werden sie **in Google Drive** gespeichert. Um auf diese Daten zuzugreifen, kannst du den **Link zu den Google Drive-Dateien** verwenden, der in diesem Repository bereitgestellt wird (oder die Dateien von dort herunterladen).
-  - **Google Drive** ist über [diesen Link](https://drive.google.com) erreichbar. Weitere Anweisungen folgen.
+  - **Google Drive** ist über [diesen Link]([https://drive.google.com](https://drive.google.com/drive/folders/1QmqFjW6Ajc4rsulmfUj3tjEL7NWzuWBV?usp=sharing)) erreichbar. Weitere Anweisungen folgen.
 
 - `dbscan_encoded_data.csv`: Die transformierten und vorverarbeiteten Verkehrsunfalldaten.
 - `geo_coords.csv`: Die geographischen Koordinaten (Längen- und Breitengrad) der Unfälle.
