@@ -1,15 +1,57 @@
-# Verkehrsunfallanalyse
-# Clustering Analyse – K-Means (Berlin Verkehrsunfälle)
+# Verkehrsunfallanalyse Berlin (2018–2021)
 
-Dieses Repository enthält die Datenverarbeitung, Modellbildung und Ergebnisdarstellung der K-Means-Clusteranalyse für Verkehrsunfalldaten in Berlin (2018–2021).
+Dieses Projekt analysiert Verkehrsunfalldaten aus Berlin mit dem Ziel, typische Muster und Risikokonstellationen mithilfe von Clusteranalyse zu identifizieren. Die Analyse erfolgt schrittweise von der Datenaufbereitung bis zum Vergleich verschiedener Clustering-Algorithmen.
 
-## Inhalte
+---
 
-- `notebooks/`: Interaktive Analyse in Jupyter
-- `scripts/`: Preprocessing-Skripte
-- `data/`: Eingabedaten, Modelle und Geo-Daten
+## Projektstruktur (Hauptordner)
 
-## Hinweise
+Die Analyse ist in fünf thematische Hauptordner unterteilt:
 
-- Die `.pkl`-Dateien wurden mit `scikit-learn 1.6.1` erstellt.
-- Für Geo-Daten wird `geopandas` mit `pyogrio` empfohlen.
+1. `Datenvorbereitung_EDA/`  
+2. `K-Means/`  
+3. `DBSCAN/`  
+4. `Hierarchisch_agglomerativ/`  
+5. `Algorithmus_Vergleich/`
+
+### Reihenfolge der Ausführung
+
+Die Module bauen aufeinander auf und sollten in folgender Reihenfolge ausgeführt werden:
+
+1. **Datenvorbereitung & EDA**
+2. **K-Means-Analyse**
+3. **DBSCAN-Analyse**
+4. **Hierarchisch-agglomerative Analyse**
+5. **Vergleich der Verfahren**
+
+---
+
+## Ordnerstruktur innerhalb jedes Moduls
+
+Jede Methode (z. B. `DBSCAN/`, `K-Means/`) folgt derselben einheitlichen Struktur:
+
+```
+DBSCAN/
+├── data/             → Bereinigte und ggf. reduzierte Eingabedaten
+├── notebooks/        → Jupyter-Notebooks mit allen Auswertungen & Visualisierungen
+├── scripts/          → Python-Skripte zur Analyse (optional)
+├── ouput/plots/      → Generierte Diagramme & Karten (PNG)
+└── README.md         → Kurze Dokumentation zum jeweiligen Modul
+```
+
+> **Hinweis**: Alle benötigten Dateien befinden sich vollständig im jeweiligen Methodenordner. Es ist keine externe Datei-Referenzierung nötig.
+
+---
+
+## Ziel
+
+Ziel ist die datenbasierte Erkennung räumlich-zeitlicher Unfallmuster zur Unterstützung der Verkehrsplanung. Clusterverfahren helfen dabei, latente Strukturen und Risikogruppen aufzudecken.
+
+---
+
+## Verwendete Technologien
+
+- **Analyse & Visualisierung**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
+- **Geodaten**: `geopandas`, `folium`, `shapely`, `adjustText`
+
+---
