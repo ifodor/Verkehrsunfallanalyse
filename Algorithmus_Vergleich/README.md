@@ -14,7 +14,7 @@ Im Zuge der Auswertung nach der Durchführung der Cluster-Analyse vergleicht die
 
 ---
 
-## 📊 Visualisierung
+## Visualisierung
 
 Das Skript erzeugt eine horizontale Balkengrafik mit drei Subplots:
 
