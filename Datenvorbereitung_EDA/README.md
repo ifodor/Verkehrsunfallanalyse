@@ -1,61 +1,40 @@
-# Verkehrsunfallanalyse Berlin (2018–2021)
+# Datenvorbereitung & Explorative Analyse – Verkehrsunfälle Berlin (2018–2021)
 
-Dieses Projekt untersucht Verkehrsunfalldaten aus Berlin im Zeitraum 2018–2021 mittels explorativer Datenanalyse, räumlicher Visualisierung und Clusteranalyse. Ziel ist es, Muster und Risikokonstellationen zu erkennen, die zur datenbasierten Verkehrsplanung beitragen können.
+In diesem Modul erfolgt die grundlegende Vorbereitung der Verkehrsunfalldaten aus Berlin (2018–2021) sowie eine erste explorative Datenanalyse (EDA). Ziel ist die Aufbereitung der Datenbasis für die anschließende Clusteranalyse.
 
 ---
 
 ## Inhalte
 
-Das Projekt besteht aus vier modularen Analysebausteinen:
+- **01_Datenvorbereitung.ipynb**: Einlesen, Bereinigung und Anreicherung der Rohdaten
+- **02_EDA.ipynb**: Analyse zeitlicher Muster, Beteiligungen, Korrelationen
+- **03_räumliche_Analyse.ipynb**: Bezirks- und LOR-basierte Karten mit `geopandas`, `folium`
+- **04_Prozessübersicht.ipynb**: Visualisierung des methodischen Workflows
 
-### 01_Datenvorbereitung.ipynb
-- Einlesen und Bereinigung der Rohdaten
-- Erstellung neuer Variablen (Jahreszeit, Tag/Nacht, Verkehrsmittelbeteiligung etc.)
-- Ausgabe: `bereinigte_daten.csv`
+---
 
-### 02_EDA.ipynb
-- Explorative Datenanalyse (EDA)
-- Zeitliche Trends (Monat, Wochentag, Stunde, Jahreszeit)
-- Beteiligte Verkehrsmittel und Unfallkategorien
-- Korrelationen (Pearson, Cramér’s V)
-- Ausgabe: Heatmaps, Balkendiagramme, Kennzahlen
+## Struktur
 
-### 03_räumliche_Analyse.ipynb
-- Räumliche Verteilung der Unfälle auf Bezirks- und LOR-Ebene
-- Verwendung von GeoJSON-Daten (`lor_planungsraeume_2021.geojson`)
-- Darstellung mit `matplotlib`, `geopandas` und `folium`
-- Erstellung statischer Karten (PNG)
-
-### 04_Prozessübersicht.ipynb
-- Visuelle Darstellung des methodischen Workflows
-- Übersicht über Schritte: Datenvorbereitung → Clustering → Qualitätsbewertung → Interpretation
+```
+Datenvorbereitung_EDA/
+├── notebooks/          → Alle Analysen in Jupyter Notebooks
+├── data/               → Roh- und bereinigte Daten
+├── output/plots/       → Exportierte Diagramme und Karten
+└── README.md           → Diese Dokumentation
+```
 
 ---
 
 ## Daten
 
-- **Unfalldaten**: Verkehrsunfälle Berlin (2018–2021)  
-  Quelle: Berliner Open Data Portal
-- **Geodaten**: Planungsräume (LOR)  
-  Datei: `lor_planungsraeume_2021.geojson`  
-  Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/)
-- **Geodaten**: Bezirke    
-  Datei: `bezirksgrenzen.geojson`  
-  Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/bezirksgrenzen/)
+- `bereinigte_daten.csv`: Haupt-Datensatz für spätere Clusteranalysen
+- `lor_planungsraeume_2021.geojson`: GeoJSON mit Berliner Planungsräumen
+- `bezirksgrenzen.geojson`: Bezirksgrenzen Berlins (für Karten)
 
 ---
 
 ## Abhängigkeiten
 
-Die Notebooks nutzen folgende Python-Bibliotheken:
-
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- geopandas
-- folium
-- shapely
-- adjustText
-- scikit-learn
-- scipy
+```bash
+pip install pandas numpy matplotlib seaborn geopandas folium shapely adjustText scikit-learn scipy
+```
