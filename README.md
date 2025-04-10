@@ -76,6 +76,20 @@ Die Analyse wurde auf folgender Hardware- und Softwarebasis durchgeführt:
 ```bash
 Python 3.8.10
 ```
+**Jupyter-Komponenten:**
+- notebook: 7.3.2
+- IPython: 8.12.3
+- ipykernel: 6.29.5
+- ipywidgets: 8.1.5
+- jupyter_client: 8.6.3
+- jupyter_core: 5.7.2
+- jupyter_server: 2.14.2
+- jupyterlab: 4.3.5
+- nbclient: 0.10.1
+- nbconvert: 7.16.6
+- nbformat: 5.10.4
+- notebook: 7.3.2
+- traitlets: 5.14.3
 
 **Verwendete Bibliotheken (Auszug):**
 
