@@ -39,6 +39,7 @@ Das Projekt besteht aus vier modularen Analysebausteinen:
 - **Geodaten**: Planungsräume (LOR)  
   Datei: `lor_planungsraeume_2021.geojson`  
   Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/)
+- **Geodaten**: Bezirke    
   Datei: `bezirksgrenzen.geojson`  
   Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/bezirksgrenzen/)
 
