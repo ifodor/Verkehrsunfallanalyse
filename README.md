@@ -74,7 +74,7 @@ Die Analyse wurde auf folgender Hardware- und Softwarebasis durchgeführt:
 
 **Python-Version:**
 ```bash
-Python 3.8 (Ubuntu system default)
+Python 3.8.10
 ```
 
 **Verwendete Bibliotheken (Auszug):**
