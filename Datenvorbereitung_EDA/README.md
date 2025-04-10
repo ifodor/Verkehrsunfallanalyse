@@ -38,7 +38,9 @@ Das Projekt besteht aus vier modularen Analysebausteinen:
   Quelle: Berliner Open Data Portal
 - **Geodaten**: Planungsräume (LOR)  
   Datei: `lor_planungsraeume_2021.geojson`  
-  Quelle: [ODIS Berlin](https://daten.odis-berlin.de/dataset/lor_planungsgraeume_2021)
+  Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/lor_planungsgraeume_2021/)
+  Datei: `bezirksgrenzen.geojson`  
+  Quelle: [ODIS Berlin](https://daten.odis-berlin.de/de/dataset/bezirksgrenzen/)
 
 ---
 
