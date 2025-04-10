@@ -6,31 +6,29 @@ Im Zuge der Auswertung nach der Durchführung der Cluster-Analyse vergleicht die
 
 ## Bewertete Kriterien
 
-| Kriterium                     | Interpretation                  |
-|------------------------------|----------------------------------|
-| **Silhouette-Wert**          | Hoch = gute Trennung & Kompaktheit |
-| **Davies-Bouldin-Index**     | Niedrig = gute Separierbarkeit  |
-| **Signifikante Features**    | Hoch = starke Merkmalsunterscheidung zwischen Clustern |
+| Kriterium                  | Ziel                         |
+|---------------------------|------------------------------|
+| Silhouette-Wert           | Hoch → gute Trennung         |
+| Davies-Bouldin-Index      | Niedrig → geringe Überlappung|
+| Signifikante Features     | Hoch → klare Merkmalsunterschiede |
 
 ---
 
-## Visualisierung
+## Struktur
 
-Das Skript erzeugt eine horizontale Balkengrafik mit drei Subplots:
-
-1. **Silhouette-Wert** (blau)
-2. **Davies-Bouldin-Index** (rot)
-3. **Anzahl signifikanter Features** (grün)
-
-Die Ausgabe wird als PNG-Datei gespeichert:  
-`Clustering_Evaluation_Horizontal.png`
+```
+Algorithmus_Vergleich/
+├── notebooks/          → Vergleich und Visualisierung der Kennwerte
+├── output/plots/       → PNG-Grafiken der Bewertungsdiagramme
+└── README.md           → Diese Datei
+```
 
 ---
 
 ## Abhängigkeiten
 
-Dieses Skript verwendet folgende Python-Bibliotheken:
+```bash
+pip install pandas matplotlib seaborn
+```
 
-- `pandas`
-- `matplotlib`
-- `seaborn`
+Die Auswertung erzeugt eine Grafik `Clustering_Evaluation_Horizontal.png`, die die Methoden gegenüberstellt.
