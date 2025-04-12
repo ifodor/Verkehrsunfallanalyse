@@ -1,0 +1,10 @@
+Cluster_Original,UJAHR,UMONAT,UWOCHENTAG,USTUNDE,USTRZUSTAND,UKATEGORIE,ULICHTVERH,UART,UTYP1,IstRad,IstPKW,IstFuss,IstKrad,IstGkfz,IstSonstige,Anzahl_Unfälle
+0,2019,6,Mi,12.8,0,Leichtverletzte,Tageslicht,5,3,0.4,0.8,0.1,0.1,0.0,0.1,5494
+1,2018,6,Fr,12.9,0,Leichtverletzte,Tageslicht,5,6,0.4,0.8,0.1,0.2,0.0,0.1,6495
+2,2021,8,Mo,13.1,0,Leichtverletzte,Tageslicht,5,2,0.5,0.8,0.1,0.2,0.0,0.2,7316
+3,2019,1,Mi,18.8,0,Leichtverletzte,Dunkelheit,5,2,0.3,0.9,0.2,0.1,0.0,0.1,3904
+4,2019,10,Mi,3.7,0,Leichtverletzte,Dunkelheit,5,1,0.3,0.8,0.2,0.1,0.0,0.2,2834
+5,2019,12,Mi,19.1,0,Leichtverletzte,Dunkelheit,5,2,0.3,0.8,0.2,0.2,0.0,0.1,5147
+6,2021,9,Fr,13.4,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.1,0.2,0.0,0.1,5883
+7,2019,6,Mi,12.7,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.1,0.2,0.0,0.1,4969
+8,2018,5,Mo,12.8,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.1,0.2,0.0,0.1,8053
