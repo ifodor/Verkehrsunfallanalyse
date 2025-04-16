@@ -1,0 +1,13 @@
+BEZ,UJAHR,UMONAT,UWOCHENTAG,USTUNDE,USTRZUSTAND,UKATEGORIE,ULICHTVERH,UART,UTYP1,IstRad,IstPKW,IstFuss,IstKrad,IstGkfz,IstSonstige,Anzahl_Unfälle
+1,2019.2,9,Mi,13.8,0,Leichtverletzte,Tageslicht,5,2,0.5,0.8,0.1,0.2,0.0,0.2,8100
+2,2019.2,6,Di,13.7,0,Leichtverletzte,Tageslicht,5,2,0.5,0.7,0.1,0.1,0.0,0.1,5032
+3,2019.2,6,Mi,13.2,0,Leichtverletzte,Tageslicht,5,3,0.5,0.8,0.1,0.1,0.0,0.1,4589
+4,2019.2,9,Di,13.6,0,Leichtverletzte,Tageslicht,5,6,0.3,0.8,0.1,0.2,0.0,0.1,6216
+5,2019.2,8,Di,13.3,0,Leichtverletzte,Tageslicht,5,2,0.2,0.9,0.2,0.2,0.0,0.2,3036
+6,2019.2,6,Mi,13.5,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.1,0.2,0.0,0.1,3366
+7,2019.2,6,Di,13.6,0,Leichtverletzte,Tageslicht,5,2,0.3,0.8,0.1,0.2,0.0,0.2,4622
+8,2019.2,8,Mi,13.9,0,Leichtverletzte,Tageslicht,5,3,0.3,0.9,0.2,0.1,0.0,0.1,3456
+9,2019.2,6,Di,13.2,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.1,0.1,0.0,0.1,3423
+10,2019.2,6,Do,13.1,0,Leichtverletzte,Tageslicht,5,3,0.3,0.8,0.2,0.1,0.0,0.2,2297
+11,2019.2,8,Do,13.2,0,Leichtverletzte,Tageslicht,5,2,0.4,0.8,0.2,0.1,0.0,0.2,2675
+12,2019.2,8,Fr,13.5,0,Leichtverletzte,Tageslicht,5,2,0.3,0.9,0.1,0.2,0.0,0.1,3283
