@@ -64,7 +64,6 @@ Die Analyse wurde auf folgender Hardware- und Softwarebasis durchgeführt:
 **Rechner:**
 - Desktop-PC mit **Intel Core i3-6100** (2 Kerne / 4 Threads)
 - 16 GB RAM
-- SSD + HDD-Speicherlösung
 - **NVIDIA GeForce GT 710**, Treiber 470.161.03
 
 **Betriebssystem:**
