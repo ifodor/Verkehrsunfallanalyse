@@ -4,12 +4,6 @@ In diesem Modul wird eine hierarchische Clusteranalyse für Verkehrsunfalldaten 
 
 ---
 
-## Ziel
-
-Identifikation lokaltypischer Unfallmuster in den 12 Berliner Bezirken auf Basis hierarchischer Strukturen.
-
----
-
 ## Struktur
 
 ```
