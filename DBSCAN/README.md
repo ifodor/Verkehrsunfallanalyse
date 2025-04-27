@@ -4,12 +4,6 @@ Dieses Modul beinhaltet die Implementierung der dichtebasierten DBSCAN-Analyse a
 
 ---
 
-## Ziel
-
-Identifikation von Clustern hoher Dichte, die auf lokale Unfallhäufungen hinweisen.
-
----
-
 ## Struktur
 
 ```
