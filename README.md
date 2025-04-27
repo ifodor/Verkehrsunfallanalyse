@@ -45,7 +45,7 @@ DBSCAN/
 
 ## Ziel
 
-Ziel ist die datenbasierte Erkennung räumlich-zeitlicher Unfallmuster zur Unterstützung der Verkehrsplanung. Clusterverfahren helfen dabei, latente Strukturen und Risikogruppen aufzudecken.
+Ziel ist die datenbasierte Erkennung räumlich-zeitlicher Unfallmuster.
 
 ---
 
