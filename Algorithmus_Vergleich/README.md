@@ -10,7 +10,7 @@ Im Zuge der Auswertung nach der Durchführung der Cluster-Analyse vergleicht die
 |---------------------------|------------------------------|
 | Silhouette-Wert           | Hoch → gute Trennung         |
 | Davies-Bouldin-Index      | Niedrig → geringe Überlappung|
-| Signifikante Features     | Hoch → klare Merkmalsunterschiede |
+
 
 ---
 
