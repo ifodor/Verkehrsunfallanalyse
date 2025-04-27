@@ -4,12 +4,6 @@ Dieses Modul enthält die Implementierung und Analyse der K-Means-Clusteranalyse
 
 ---
 
-## Ziel
-
-Identifikation von Unfallmustern durch segmentierte Clusterbildung nach Merkmalen wie Uhrzeit, Unfallart, Verkehrsmittel und Ort.
-
----
-
 ## Struktur
 
 ```
